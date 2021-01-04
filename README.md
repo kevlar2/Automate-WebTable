@@ -1,6 +1,6 @@
 # Automate-WebTable
 
- /*
+
     // Automate Sorting, Pagination and Filtering of Web tables using Java streams and TestNG.
 
     // Test URL: https://rahulshettyacademy.com/seleniumPractise/#/offers
@@ -31,4 +31,4 @@
     // Steps:
     // 1. Enter search keyword in search bar
     // 2. Validate item in result page
-    */
+    
