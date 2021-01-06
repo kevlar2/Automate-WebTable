@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-06T19:13:39 GMT" name="Command line suite" finished-at="2021-01-06T19:14:12 GMT" duration-ms="32202">
+    <groups>
+    </groups>
+    <test started-at="2021-01-06T19:13:39 GMT" name="Command line test" finished-at="2021-01-06T19:14:12 GMT" duration-ms="32202">
+      <class name="Greenkart.ReverseSortTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.ReverseSortTest@646007f4]" started-at="2021-01-06T19:13:59 GMT" name="startUp" finished-at="2021-01-06T19:14:07 GMT" duration-ms="8056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="getReversedTableListAndCompare()[pri:0, instance:Greenkart.ReverseSortTest@646007f4]" started-at="2021-01-06T19:14:11 GMT" name="getReversedTableListAndCompare" finished-at="2021-01-06T19:14:11 GMT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReversedTableListAndCompare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.ReverseSortTest@646007f4]" started-at="2021-01-06T19:14:11 GMT" name="tearDown" finished-at="2021-01-06T19:14:12 GMT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Greenkart.ReverseSortTest -->
+      <class name="Greenkart.NormalSortTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.NormalSortTest@710726a3]" started-at="2021-01-06T19:13:50 GMT" name="startUp" finished-at="2021-01-06T19:13:59 GMT" duration-ms="9352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="getTableListSortAndCompare()[pri:0, instance:Greenkart.NormalSortTest@710726a3]" started-at="2021-01-06T19:14:11 GMT" name="getTableListSortAndCompare" finished-at="2021-01-06T19:14:11 GMT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTableListSortAndCompare -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.NormalSortTest@710726a3]" started-at="2021-01-06T19:14:11 GMT" name="tearDown" finished-at="2021-01-06T19:14:11 GMT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Greenkart.NormalSortTest -->
+      <class name="Greenkart.GetItemPriceTest">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.GetItemPriceTest@149494d8]" started-at="2021-01-06T19:13:39 GMT" name="startUp" finished-at="2021-01-06T19:13:50 GMT" duration-ms="10242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@149494d8]" started-at="2021-01-06T19:14:07 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-01-06T19:14:07 GMT" duration-ms="172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemPrice -->
+        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@149494d8]" started-at="2021-01-06T19:14:07 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-01-06T19:14:07 GMT" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tomato]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemPrice -->
+        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@149494d8]" started-at="2021-01-06T19:14:07 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-01-06T19:14:11 GMT" duration-ms="3464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Carrot]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItemPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.GetItemPriceTest@149494d8]" started-at="2021-01-06T19:14:11 GMT" name="tearDown" finished-at="2021-01-06T19:14:11 GMT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Greenkart.GetItemPriceTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
