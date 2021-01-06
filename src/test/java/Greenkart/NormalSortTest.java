@@ -28,10 +28,10 @@ public class NormalSortTest extends base {
         // 1. Click on column sorting
         driver.findElement(By.xpath("//tr/th[1]")).click();
 
-        // 2. Capture all webelement into list
+        // 2. Capture all WebElement into list
         List<WebElement> listOfElements = driver.findElements(By.xpath("//tr/td[1]"));
 
-        // 3. Capture text for all weblelement into new (Original) list
+        // 3. Capture text for all WebElement into new (Original) list
         List<String> originalList = listOfElements.stream().map(s -> s.getText()).collect(Collectors.toList());
         System.out.println(originalList);
 
