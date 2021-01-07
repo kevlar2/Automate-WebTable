@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automate-WebTable">
+    <test verbose="2" preserve-order="true" name="Web table Test" parallel="false">
+        <classes>
+            <class name="Greenkart.NormalSortTest">
+                <methods>
+                    <include name="getTableListSortAndCompare"/>
+                </methods>
+            </class>
+            <class name="Greenkart.ReverseSortTest">
+                <methods>
+                    <include name="getReversedTableListAndCompare"/>
+                </methods>
+            </class>
+            <class name="Greenkart.GetItemPriceTest">
+                <methods>
+                    <include name="getItemPrice"/>
+                </methods>
+            </class>
+            <class name="Greenkart.SearchFilterTest">
+                <methods>
+                    <include name="validateSearchFilter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
