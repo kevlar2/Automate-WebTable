@@ -1,0 +1,3 @@
+[0113/223907.013:ERROR:process_info.cc(359)] UncheckedAllocate
+[0113/223907.125:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\KEVINO~1\AppData\Local\Temp\scoped_dir51432_578900195\Crashpad\attachments\c3d3e78a-3b12-46cf-ae50-34dcdaa38cc9: The system cannot find the path specified. (0x3)
+[0114/141005.329:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

@@ -34,8 +34,8 @@ public class SearchFilterTest extends base {
         List<WebElement> veggies=driver.findElements(By.xpath("//tr/td[1]"));
         List<WebElement> filteredList=veggies.stream().filter(veggie->veggie.getText().contains(vegetableName)).collect(Collectors.toList());
 
-        Assert.assertEquals(veggies.size(),filteredList.size());
-        Assert.assertEquals(filteredList.get(0).getText(),vegetableName);
+        Assert.assertEquals(veggies.size(),filteredList.size(),"The veggies.size() list is not equals to filteredList.size().");
+        Assert.assertEquals(filteredList.get(0).getText(),vegetableName, "The vegetable name from filtered list does not equal to the vegetable name from test data.");
         System.out.println(vegetableName);
 
     }

@@ -41,7 +41,7 @@ public class NormalSortTest extends base {
         System.out.println(sortedList);
 
         // 5. Compare original list vs sorted list
-        Assert.assertTrue(originalList.equals(sortedList));
+        Assert.assertTrue(originalList.equals(sortedList),"The original list does not equal sorted list");
     }
 
     @AfterTest

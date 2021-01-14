@@ -39,7 +39,7 @@ public class GetItemPriceTest extends base {
 
             // 3. Get the price of the item
             price.forEach(s -> System.out.println( vegetableName +" Price: " + s));
-            price.forEach(s->Assert.assertTrue(vegetablePrice.equalsIgnoreCase(s)));
+            price.forEach(s->Assert.assertTrue(vegetablePrice.equalsIgnoreCase(s),"False: got a different Vegetable item"));
             if (price.size() < 1) {
                 Thread.sleep(1500);
                 driver.findElement(By.cssSelector("[aria-label='Next']")).click();

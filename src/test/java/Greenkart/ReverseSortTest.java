@@ -47,8 +47,8 @@ public class ReverseSortTest extends base {
         System.out.println();
         System.out.println(reverseSortList);
 
-        /* 5. Compare original list vs sorted list */
-        Assert.assertTrue(originalList.equals(reverseSortList));
+        /* 5. Compare original list vs Reversed sorted list */
+        Assert.assertTrue(originalList.equals(reverseSortList), "The original list does not equal the reversed sorted list.");
     }
 
     @AfterTest
