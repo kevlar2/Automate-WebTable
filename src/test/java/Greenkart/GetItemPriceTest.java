@@ -6,8 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import resources.VegetableAndPriceData;
 import resources.base;
 
 import java.io.IOException;
@@ -24,7 +24,7 @@ public class GetItemPriceTest extends base {
         driver.get(prop.getProperty("url"));
     }
 
-    @Test(dataProvider = "vegetable")
+    @Test(dataProviderClass = VegetableAndPriceData.class,dataProvider = "vegetable")
     public void getItemPrice(String vegetableName, String vegetablePrice) throws InterruptedException {
         // Example of pagination
         System.out.println();
@@ -52,29 +52,6 @@ public class GetItemPriceTest extends base {
     public void tearDown(){
         driver.close();
     }
-
-    @DataProvider(name = "vegetable")
-    public Object[] getVegetable(){
-        //[3] = Row count
-        //[2] = Column count
-        Object[][] vegetableData =new Object[3][2];
-
-        // Row 0 -> 1
-        vegetableData[0][0] = "Rice";
-        vegetableData[0][1] = "37";
-
-        // Row 1 -> 2
-        vegetableData[1][0] = "Tomato";
-        vegetableData[1][1] = "37";
-
-        // Row 2 -> 3
-        vegetableData[2][0] = "Carrot";
-        vegetableData[2][1] = "34";
-
-
-        return vegetableData;
-    }
-
 
 
         // Methods
