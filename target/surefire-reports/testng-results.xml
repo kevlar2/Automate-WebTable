@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-02T14:26:53 GMT" name="Automate-WebTable" finished-at="2021-02-02T14:27:32 GMT" duration-ms="39573">
+  <suite started-at="2021-03-03T22:52:02 GMT" name="Automate-WebTable" finished-at="2021-03-03T22:52:53 GMT" duration-ms="51573">
     <groups>
     </groups>
-    <test started-at="2021-02-02T14:26:53 GMT" name="Web table Test" finished-at="2021-02-02T14:27:32 GMT" duration-ms="39573">
+    <test started-at="2021-03-03T22:52:02 GMT" name="Web table Test" finished-at="2021-03-03T22:52:53 GMT" duration-ms="51573">
       <class name="Greenkart.ReverseSortTest">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.ReverseSortTest@21282ed8]" started-at="2021-02-02T14:27:09 GMT" name="startUp" finished-at="2021-02-02T14:27:17 GMT" duration-ms="8015" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.ReverseSortTest@66f57048]" started-at="2021-03-03T22:52:22 GMT" name="startUp" finished-at="2021-03-03T22:52:32 GMT" duration-ms="9936" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="getReversedTableListAndCompare()[pri:0, instance:Greenkart.ReverseSortTest@21282ed8]" started-at="2021-02-02T14:27:26 GMT" name="getReversedTableListAndCompare" finished-at="2021-02-02T14:27:26 GMT" duration-ms="311" status="PASS">
+        <test-method signature="getReversedTableListAndCompare()[pri:0, instance:Greenkart.ReverseSortTest@66f57048]" started-at="2021-03-03T22:52:41 GMT" name="getReversedTableListAndCompare" finished-at="2021-03-03T22:52:42 GMT" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReversedTableListAndCompare -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.ReverseSortTest@21282ed8]" started-at="2021-02-02T14:27:32 GMT" name="tearDown" finished-at="2021-02-02T14:27:32 GMT" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.ReverseSortTest@66f57048]" started-at="2021-03-03T22:52:53 GMT" name="tearDown" finished-at="2021-03-03T22:52:53 GMT" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Greenkart.ReverseSortTest -->
       <class name="Greenkart.SearchFilterTest">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.SearchFilterTest@7bab3f1a]" started-at="2021-02-02T14:27:17 GMT" name="startUp" finished-at="2021-02-02T14:27:25 GMT" duration-ms="7883" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.SearchFilterTest@21282ed8]" started-at="2021-03-03T22:52:32 GMT" name="startUp" finished-at="2021-03-03T22:52:41 GMT" duration-ms="9114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@7bab3f1a]" started-at="2021-02-02T14:27:30 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-02-02T14:27:30 GMT" duration-ms="196" status="PASS">
+        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@21282ed8]" started-at="2021-03-03T22:52:46 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-03-03T22:52:46 GMT" duration-ms="296" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFilter -->
-        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@7bab3f1a]" started-at="2021-02-02T14:27:30 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-02-02T14:27:30 GMT" duration-ms="153" status="PASS">
+        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@21282ed8]" started-at="2021-03-03T22:52:46 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-03-03T22:52:46 GMT" duration-ms="175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFilter -->
-        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@7bab3f1a]" started-at="2021-02-02T14:27:30 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-02-02T14:27:30 GMT" duration-ms="137" status="PASS">
+        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@21282ed8]" started-at="2021-03-03T22:52:46 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-03-03T22:52:46 GMT" duration-ms="165" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFilter -->
-        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@7bab3f1a]" started-at="2021-02-02T14:27:30 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-02-02T14:27:30 GMT" duration-ms="158" status="PASS">
+        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@21282ed8]" started-at="2021-03-03T22:52:46 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-03-03T22:52:46 GMT" duration-ms="169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFilter -->
-        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@7bab3f1a]" started-at="2021-02-02T14:27:30 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-02-02T14:27:31 GMT" duration-ms="176" status="PASS">
+        <test-method signature="validateSearchFilter(java.lang.String)[pri:0, instance:Greenkart.SearchFilterTest@21282ed8]" started-at="2021-03-03T22:52:46 GMT" name="validateSearchFilter" data-provider="vegetables" finished-at="2021-03-03T22:52:47 GMT" duration-ms="169" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,31 +80,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFilter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.SearchFilterTest@7bab3f1a]" started-at="2021-02-02T14:27:32 GMT" name="tearDown" finished-at="2021-02-02T14:27:32 GMT" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.SearchFilterTest@21282ed8]" started-at="2021-03-03T22:52:53 GMT" name="tearDown" finished-at="2021-03-03T22:52:53 GMT" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Greenkart.SearchFilterTest -->
       <class name="Greenkart.NormalSortTest">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.NormalSortTest@550dbc7a]" started-at="2021-02-02T14:27:02 GMT" name="startUp" finished-at="2021-02-02T14:27:09 GMT" duration-ms="7885" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.NormalSortTest@4dbb42b7]" started-at="2021-03-03T22:52:12 GMT" name="startUp" finished-at="2021-03-03T22:52:22 GMT" duration-ms="9486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="getTableListSortAndCompare()[pri:0, instance:Greenkart.NormalSortTest@550dbc7a]" started-at="2021-02-02T14:27:25 GMT" name="getTableListSortAndCompare" finished-at="2021-02-02T14:27:26 GMT" duration-ms="285" status="PASS">
+        <test-method signature="getTableListSortAndCompare()[pri:0, instance:Greenkart.NormalSortTest@4dbb42b7]" started-at="2021-03-03T22:52:41 GMT" name="getTableListSortAndCompare" finished-at="2021-03-03T22:52:41 GMT" duration-ms="501" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTableListSortAndCompare -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.NormalSortTest@550dbc7a]" started-at="2021-02-02T14:27:31 GMT" name="tearDown" finished-at="2021-02-02T14:27:32 GMT" duration-ms="481" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.NormalSortTest@4dbb42b7]" started-at="2021-03-03T22:52:50 GMT" name="tearDown" finished-at="2021-03-03T22:52:53 GMT" duration-ms="3005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Greenkart.NormalSortTest -->
       <class name="Greenkart.GetItemPriceTest">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.GetItemPriceTest@36916eb0]" started-at="2021-02-02T14:26:53 GMT" name="startUp" finished-at="2021-02-02T14:27:02 GMT" duration-ms="8910" status="PASS">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:Greenkart.GetItemPriceTest@550dbc7a]" started-at="2021-03-03T22:52:02 GMT" name="startUp" finished-at="2021-03-03T22:52:12 GMT" duration-ms="10391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@36916eb0]" started-at="2021-02-02T14:27:26 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-02-02T14:27:26 GMT" duration-ms="169" status="PASS">
+        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@550dbc7a]" started-at="2021-03-03T22:52:42 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-03-03T22:52:42 GMT" duration-ms="176" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getItemPrice -->
-        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@36916eb0]" started-at="2021-02-02T14:27:26 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-02-02T14:27:26 GMT" duration-ms="119" status="PASS">
+        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@550dbc7a]" started-at="2021-03-03T22:52:42 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-03-03T22:52:42 GMT" duration-ms="164" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -136,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getItemPrice -->
-        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@36916eb0]" started-at="2021-02-02T14:27:26 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-02-02T14:27:30 GMT" duration-ms="3430" status="PASS">
+        <test-method signature="getItemPrice(java.lang.String, java.lang.String)[pri:0, instance:Greenkart.GetItemPriceTest@550dbc7a]" started-at="2021-03-03T22:52:42 GMT" name="getItemPrice" data-provider="vegetable" finished-at="2021-03-03T22:52:46 GMT" duration-ms="3679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,7 +152,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getItemPrice -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.GetItemPriceTest@36916eb0]" started-at="2021-02-02T14:27:31 GMT" name="tearDown" finished-at="2021-02-02T14:27:31 GMT" duration-ms="841" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Greenkart.GetItemPriceTest@550dbc7a]" started-at="2021-03-03T22:52:47 GMT" name="tearDown" finished-at="2021-03-03T22:52:50 GMT" duration-ms="3006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -10,8 +10,9 @@ import java.util.concurrent.TimeUnit;
 
 public class base {
 
-    public WebDriver driver;
+    private WebDriver driver;
     public Properties prop;
+    private FileInputStream fips;
 
     public WebDriver initialiseDriver() throws IOException {
 
@@ -19,7 +20,7 @@ public class base {
         prop = new Properties();
 
         // This allows for you to read the file and it requires file path
-        FileInputStream fips = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
+        fips = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
         prop.load(fips);
 
         // Simple webdriver Set-up
