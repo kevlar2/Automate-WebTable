@@ -33,9 +33,20 @@
             <version>7.3.0</version>
             <scope>compile</scope>
         </dependency>
+        <!-- Log4j Maven dependencies-->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.13.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.13.3</version>
+        </dependency>
     </dependencies>
     <build>
-        <!-- Interacting with resources folder -->
+        <!-- Interacting with resources folder testng xml file -->
         <resources>
             <resource>
                 <directory>src/main/java/resources</directory>

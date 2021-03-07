@@ -1,5 +1,7 @@
 package Greenkart;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,17 +18,21 @@ import java.util.stream.Collectors;
 
 public class GetItemPriceTest extends base {
 
-    public WebDriver driver;
+    private WebDriver driver;
+    private static final Logger log = LogManager.getLogger(GetItemPriceTest.class.getName());
 
     @BeforeTest
     public void startUp() throws IOException {
         driver = initialiseDriver();
+        log.info("Stared browser successfully");
         driver.get(prop.getProperty("url"));
+        log.info("Navigating to " + prop.getProperty("url"));
     }
 
     @Test(dataProviderClass = VegetableAndPriceData.class,dataProvider = "vegetable")
     public void getItemPrice(String vegetableName, String vegetablePrice) throws InterruptedException {
         // Example of pagination
+        log.info("Validating item price");
         System.out.println();
         List<String> price;
         do {
@@ -38,7 +44,7 @@ public class GetItemPriceTest extends base {
                     .collect(Collectors.toList());
 
             // 3. Get the price of the item
-            price.forEach(s -> System.out.println( vegetableName +" Price: " + s));
+            price.forEach(s -> log.info( vegetableName +" Price: " + s));
             price.forEach(s->Assert.assertTrue(vegetablePrice.equalsIgnoreCase(s),"False: got a different Vegetable item"));
             if (price.size() < 1) {
                 Thread.sleep(1500);
@@ -51,11 +57,13 @@ public class GetItemPriceTest extends base {
     @AfterTest
     public void tearDown(){
         driver.close();
+        log.info("Closed browser successfully");
     }
 
 
         // Methods
         private static String getPriceOfVeggie(WebElement s) {
+            log.info("Getting the price of the vegetable");
             return s.findElement(By.xpath("following-sibling::td[1]")).getText();
 
         }

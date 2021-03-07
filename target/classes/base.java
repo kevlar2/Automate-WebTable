@@ -1,5 +1,7 @@
 package resources;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -13,8 +15,10 @@ public class base {
     private WebDriver driver;
     public Properties prop;
     private FileInputStream fips;
+    private static Logger log = LogManager.getLogger(base.class.getName());
 
     public WebDriver initialiseDriver() throws IOException {
+        log.info("Initialising driver");
 
         // Creates the property object
         prop = new Properties();
