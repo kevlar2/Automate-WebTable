@@ -4,8 +4,10 @@
     // Automate Sorting, Pagination and Filtering of Web tables using Java streams and TestNG.
     
     Requirements:
-    Selenium -> 
-    TestNS -> 
+    Selenium -> Automation framework
+    TestNG -> Testing framework
+    Maven -> Build Management tool
+    Log4j -> Framework logging tool
 
     // Test URL: https://rahulshettyacademy.com/seleniumPractise/#/offers
 

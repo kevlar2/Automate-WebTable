@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="35.959" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="29.531" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire5960929810406425993\surefirebooter5650912241969884784.jar C:\Users\kevinogaga\AppData\Local\Temp\surefire5960929810406425993 2021-03-07T15-00-26_139-jvmRun1 surefire13695224824677050565tmp surefire_07379237229458426003tmp"/>
+    <property name="sun.java.command" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire6818776434556808889\surefirebooter3683428309680335670.jar C:\Users\kevinogaga\AppData\Local\Temp\surefire6818776434556808889 2021-03-09T01-10-21_007-jvmRun1 surefire15543352193103028816tmp surefire_013146300307069462548tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\kevinogaga\gitHub\Automate-WebTable\target\test-classes;C:\Users\kevinogaga\gitHub\Automate-WebTable\target\classes;C:\Users\kevinogaga\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\Users\kevinogaga\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\kevinogaga\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\kevinogaga\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\kevinogaga\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kevinogaga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\kevinogaga\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kevinogaga\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kevinogaga\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kevinogaga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kevinogaga\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kevinogaga\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kevinogaga\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kevinogaga\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kevinogaga\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\kevinogaga\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -35,7 +35,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire5960929810406425993\surefirebooter5650912241969884784.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire6818776434556808889\surefirebooter3683428309680335670.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.1+12"/>
@@ -60,58 +60,57 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="getTableListSortAndCompare" classname="Greenkart.NormalSortTest" time="0.168">
+  <testcase name="getTableListSortAndCompare" classname="Greenkart.NormalSortTest" time="0.217">
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-2021-03-07 15:00:30,111 main ERROR File contains an invalid element or attribute "size"
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 1450
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 28495
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 07, 2021 3:00:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 09, 2021 1:10:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 24917
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 38853
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 07, 2021 3:00:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 09, 2021 1:10:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 4551
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 19787
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 07, 2021 3:00:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 09, 2021 1:10:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 12691
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 8417
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Mar 07, 2021 3:00:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 09, 2021 1:10:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="getReversedTableListAndCompare" classname="Greenkart.ReverseSortTest" time="0.239">
+  <testcase name="getReversedTableListAndCompare" classname="Greenkart.ReverseSortTest" time="0.296">
     <system-out><![CDATA[
 
 
 ]]></system-out>
   </testcase>
-  <testcase name="getItemPrice[Rice, 37](1)" classname="Greenkart.GetItemPriceTest" time="0.138">
+  <testcase name="getItemPrice[Rice, 37](1)" classname="Greenkart.GetItemPriceTest" time="0.171">
     <system-out><![CDATA[
 ]]></system-out>
   </testcase>
-  <testcase name="getItemPrice[Tomato, 37](2)" classname="Greenkart.GetItemPriceTest" time="0.086">
+  <testcase name="getItemPrice[Tomato, 37](2)" classname="Greenkart.GetItemPriceTest" time="0.112">
     <system-out><![CDATA[
 ]]></system-out>
   </testcase>
-  <testcase name="getItemPrice[Carrot, 34](3)" classname="Greenkart.GetItemPriceTest" time="3.421">
+  <testcase name="getItemPrice[Carrot, 34](3)" classname="Greenkart.GetItemPriceTest" time="3.416">
     <system-out><![CDATA[
 ]]></system-out>
   </testcase>
-  <testcase name="validateSearchFilter[Rice](1)" classname="Greenkart.SearchFilterTest" time="0.185"/>
-  <testcase name="validateSearchFilter[Tomato](2)" classname="Greenkart.SearchFilterTest" time="0.168"/>
-  <testcase name="validateSearchFilter[Carrot](3)" classname="Greenkart.SearchFilterTest" time="0.136"/>
-  <testcase name="validateSearchFilter[Potato](4)" classname="Greenkart.SearchFilterTest" time="0.142"/>
-  <testcase name="validateSearchFilter[Mango](5)" classname="Greenkart.SearchFilterTest" time="0.161"/>
+  <testcase name="validateSearchFilter[Rice](1)" classname="Greenkart.SearchFilterTest" time="0.24"/>
+  <testcase name="validateSearchFilter[Tomato](2)" classname="Greenkart.SearchFilterTest" time="0.198"/>
+  <testcase name="validateSearchFilter[Carrot](3)" classname="Greenkart.SearchFilterTest" time="0.22"/>
+  <testcase name="validateSearchFilter[Potato](4)" classname="Greenkart.SearchFilterTest" time="0.165"/>
+  <testcase name="validateSearchFilter[Mango](5)" classname="Greenkart.SearchFilterTest" time="0.16"/>
 </testsuite>
