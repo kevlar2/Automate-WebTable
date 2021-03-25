@@ -4,6 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -29,7 +30,9 @@ public class base {
 
         // Simple webdriver Set-up
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
-        driver = new ChromeDriver();
+        ChromeOptions browserOptions = new ChromeOptions();
+        browserOptions.setCapability("browserVersion", "89.0");
+        driver = new ChromeDriver(browserOptions);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         return driver;
