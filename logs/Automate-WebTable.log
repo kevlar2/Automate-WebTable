@@ -1,42 +1,71 @@
-[INFO ] 2021-03-25 13:35:35.792 [main] base - Initialising driver
-[INFO ] 2021-03-25 13:35:39.262 [main] GetItemPriceTest - Stared browser successfully
-[INFO ] 2021-03-25 13:35:43.249 [main] GetItemPriceTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
-[INFO ] 2021-03-25 13:35:43.249 [main] base - Initialising driver
-[INFO ] 2021-03-25 13:35:48.059 [main] NormalSortTest - Stared browser successfully
-[INFO ] 2021-03-25 13:35:50.614 [main] NormalSortTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
-[INFO ] 2021-03-25 13:35:50.615 [main] base - Initialising driver
-[INFO ] 2021-03-25 13:35:53.623 [main] ReverseSortTest - Stared browser successfully
-[INFO ] 2021-03-25 13:35:56.090 [main] ReverseSortTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
-[INFO ] 2021-03-25 13:35:56.091 [main] base - Initialising driver
-[INFO ] 2021-03-25 13:35:59.198 [main] SearchFilterTest - Stared browser successfully
-[INFO ] 2021-03-25 13:36:01.957 [main] SearchFilterTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
-[INFO ] 2021-03-25 13:36:02.016 [main] NormalSortTest - Validating normal sort
-[INFO ] 2021-03-25 13:36:02.245 [main] NormalSortTest - Original list: [Almond, Apple, Banana, Beans, Brinjal]
-[INFO ] 2021-03-25 13:36:02.246 [main] NormalSortTest - Sorted list: [Almond, Apple, Banana, Beans, Brinjal]
-[INFO ] 2021-03-25 13:36:02.258 [main] ReverseSortTest - Validating reversed sort
-[INFO ] 2021-03-25 13:36:02.547 [main] ReverseSortTest - Original list: [Wheat, Tomato, Strawberry, Rice, Potato]
-[INFO ] 2021-03-25 13:36:02.547 [main] ReverseSortTest - Reverse sort list: [Potato, Rice, Strawberry, Tomato, Wheat]
-[INFO ] 2021-03-25 13:36:02.548 [main] ReverseSortTest - Collections reversed: [Wheat, Tomato, Strawberry, Rice, Potato]
-[INFO ] 2021-03-25 13:36:02.554 [main] GetItemPriceTest - Validating item price
-[INFO ] 2021-03-25 13:36:02.697 [main] GetItemPriceTest - Getting the price of the vegetable
-[INFO ] 2021-03-25 13:36:02.762 [main] GetItemPriceTest - Rice Price: 37
-[INFO ] 2021-03-25 13:36:02.763 [main] GetItemPriceTest - Validating item price
-[INFO ] 2021-03-25 13:36:02.802 [main] GetItemPriceTest - Getting the price of the vegetable
-[INFO ] 2021-03-25 13:36:02.863 [main] GetItemPriceTest - Tomato Price: 37
-[INFO ] 2021-03-25 13:36:02.863 [main] GetItemPriceTest - Validating item price
-[INFO ] 2021-03-25 13:36:06.397 [main] GetItemPriceTest - Getting the price of the vegetable
-[INFO ] 2021-03-25 13:36:06.460 [main] GetItemPriceTest - Carrot Price: 34
-[INFO ] 2021-03-25 13:36:06.462 [main] SearchFilterTest - Validating search and filter bar
-[INFO ] 2021-03-25 13:36:06.716 [main] SearchFilterTest - Rice
-[INFO ] 2021-03-25 13:36:06.717 [main] SearchFilterTest - Validating search and filter bar
-[INFO ] 2021-03-25 13:36:06.907 [main] SearchFilterTest - Tomato
-[INFO ] 2021-03-25 13:36:06.907 [main] SearchFilterTest - Validating search and filter bar
-[INFO ] 2021-03-25 13:36:07.119 [main] SearchFilterTest - Carrot
-[INFO ] 2021-03-25 13:36:07.120 [main] SearchFilterTest - Validating search and filter bar
-[INFO ] 2021-03-25 13:36:07.301 [main] SearchFilterTest - Potato
-[INFO ] 2021-03-25 13:36:07.302 [main] SearchFilterTest - Validating search and filter bar
-[INFO ] 2021-03-25 13:36:07.488 [main] SearchFilterTest - Mango
-[INFO ] 2021-03-25 13:36:08.690 [main] GetItemPriceTest - Closed browser successfully
-[INFO ] 2021-03-25 13:36:08.942 [main] NormalSortTest - Closed browser successfully
-[INFO ] 2021-03-25 13:36:09.695 [main] ReverseSortTest - Closed browser successfully
-[INFO ] 2021-03-25 13:36:14.513 [main] SearchFilterTest - Closed browser successfully
+[INFO ] 2021-03-26 19:42:08.895 [main] base - Initialising driver
+[INFO ] 2021-03-26 19:42:18.249 [main] GetItemPriceTest - Stared browser successfully
+[INFO ] 2021-03-26 19:42:22.065 [main] GetItemPriceTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
+[INFO ] 2021-03-26 19:42:22.114 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:42:22.197 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:42:22.238 [main] GetItemPriceTest - Rice Price: 37
+[INFO ] 2021-03-26 19:42:22.244 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:42:22.272 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:42:22.323 [main] GetItemPriceTest - Tomato Price: 37
+[INFO ] 2021-03-26 19:42:22.323 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:42:25.670 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:42:25.707 [main] GetItemPriceTest - Carrot Price: 34
+[INFO ] 2021-03-26 19:42:25.847 [main] GetItemPriceTest - Closed browser successfully
+[INFO ] 2021-03-26 19:54:49.563 [main] base - Initialising driver
+[INFO ] 2021-03-26 19:54:49.572 [main] base - Starting chrome driver
+[INFO ] 2021-03-26 19:54:54.190 [main] GetItemPriceTest - Stared browser successfully
+[INFO ] 2021-03-26 19:54:56.170 [main] GetItemPriceTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
+[INFO ] 2021-03-26 19:54:56.241 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:54:56.366 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:54:56.456 [main] GetItemPriceTest - Rice Price: 37
+[INFO ] 2021-03-26 19:54:56.465 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:54:56.504 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:54:56.586 [main] GetItemPriceTest - Tomato Price: 37
+[INFO ] 2021-03-26 19:54:56.587 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:54:59.936 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:54:59.974 [main] GetItemPriceTest - Carrot Price: 34
+[INFO ] 2021-03-26 19:55:00.214 [main] GetItemPriceTest - Closed browser successfully
+[INFO ] 2021-03-26 19:56:23.283 [main] base - Initialising driver
+[INFO ] 2021-03-26 19:56:23.294 [main] base - Starting firefox driver
+[INFO ] 2021-03-26 19:58:19.608 [main] base - Initialising driver
+[INFO ] 2021-03-26 19:58:19.617 [main] base - Starting microsoft edge driver
+[INFO ] 2021-03-26 19:58:33.163 [main] GetItemPriceTest - Stared browser successfully
+[INFO ] 2021-03-26 19:58:36.814 [main] GetItemPriceTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
+[INFO ] 2021-03-26 19:58:36.881 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:58:37.032 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:58:37.107 [main] GetItemPriceTest - Rice Price: 37
+[INFO ] 2021-03-26 19:58:37.117 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:58:37.154 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:58:37.231 [main] GetItemPriceTest - Tomato Price: 37
+[INFO ] 2021-03-26 19:58:37.232 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:58:40.585 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:58:40.633 [main] GetItemPriceTest - Carrot Price: 34
+[INFO ] 2021-03-26 19:58:41.256 [main] GetItemPriceTest - Closed browser successfully
+[INFO ] 2021-03-26 19:59:07.440 [main] base - Initialising driver
+[INFO ] 2021-03-26 19:59:07.450 [main] base - Starting firefox driver
+[INFO ] 2021-03-26 19:59:14.770 [main] GetItemPriceTest - Stared browser successfully
+[INFO ] 2021-03-26 19:59:17.094 [main] GetItemPriceTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
+[INFO ] 2021-03-26 19:59:17.167 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:59:17.275 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:59:17.315 [main] GetItemPriceTest - Rice Price: 37
+[INFO ] 2021-03-26 19:59:17.327 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:59:17.360 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:59:17.405 [main] GetItemPriceTest - Tomato Price: 37
+[INFO ] 2021-03-26 19:59:17.406 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 19:59:21.082 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 19:59:21.113 [main] GetItemPriceTest - Carrot Price: 34
+[INFO ] 2021-03-26 19:59:22.702 [main] GetItemPriceTest - Closed browser successfully
+[INFO ] 2021-03-26 20:00:24.538 [main] base - Initialising driver
+[INFO ] 2021-03-26 20:00:24.549 [main] base - Starting firefox driver
+[INFO ] 2021-03-26 20:00:31.533 [main] GetItemPriceTest - Stared browser successfully
+[INFO ] 2021-03-26 20:00:33.895 [main] GetItemPriceTest - Navigating to https://rahulshettyacademy.com/seleniumPractise/#/offers
+[INFO ] 2021-03-26 20:00:33.969 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 20:00:34.076 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 20:00:34.104 [main] GetItemPriceTest - Rice Price: 37
+[INFO ] 2021-03-26 20:00:34.112 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 20:00:34.149 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 20:00:34.190 [main] GetItemPriceTest - Tomato Price: 37
+[INFO ] 2021-03-26 20:00:34.191 [main] GetItemPriceTest - Validating item price
+[INFO ] 2021-03-26 20:00:37.873 [main] GetItemPriceTest - Getting the price of the vegetable
+[INFO ] 2021-03-26 20:00:37.902 [main] GetItemPriceTest - Carrot Price: 34
+[INFO ] 2021-03-26 20:00:39.421 [main] GetItemPriceTest - Closed browser successfully

@@ -44,6 +44,12 @@
             <artifactId>log4j-core</artifactId>
             <version>2.13.3</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>4.3.1</version>
+        </dependency>
     </dependencies>
     <build>
         <!-- Interacting with resources folder testng xml file -->
