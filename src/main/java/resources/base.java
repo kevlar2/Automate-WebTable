@@ -59,7 +59,7 @@ public class base {
                 break;
 
             default:
-                log.info("Browser driver entered is not valid, please check data.properties file and trying again.");
+                log.error("Browser driver entered is not valid, please check data.properties file and trying again.");
         }
 
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
